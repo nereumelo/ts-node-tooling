@@ -4,7 +4,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
-    "test:coverage": "vitest run --coverage",
+    "test:coverage": "rimraf coverage && vitest run --coverage",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix"
   },
