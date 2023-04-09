@@ -18,4 +18,5 @@ module.exports = {
     'no-multiple-empty-lines': 'error',
     'prefer-const': 'error',
   },
+  ignorePatterns: ['**/*.js'],
 };
