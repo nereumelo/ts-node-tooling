@@ -1,5 +1,11 @@
 # TS-NODE-TOOLING
 
+#### Create config files
+
+ ```bash
+ mkdir .vscode && touch .vscode/settings.json .eslintrc.js .gitignore prettier.config.js tsconfig.json vite.config.js
+ ```
+
 #### References:
 [Set up Node.js project with Typescript, ESLint, and Prettier](https://blog.tericcabrel.com/set-up-a-nodejs-project-with-typescript-eslint-and-prettier)
 
