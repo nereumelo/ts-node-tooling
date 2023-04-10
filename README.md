@@ -1,6 +1,6 @@
 # TS-NODE-TOOLING
 
-#### Create config files
+### Create config files
 
  ```bash
     mkdir -p src .vscode &&  \
@@ -9,7 +9,7 @@
     babel.config.js tsconfig.json vite.config.js
  ```
  
-#### Fill files
+### Fill files
 
 ##### settings.json
  ```bash
