@@ -6,7 +6,7 @@
     mkdir -p src .vscode &&  \
     touch -a .vscode/settings.json \
     .eslintrc.js .gitignore prettier.config.js \
-    tsconfig.json vite.config.js
+    babel.config.js tsconfig.json vite.config.js
  ```
 
 #### References:
