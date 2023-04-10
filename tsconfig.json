@@ -3,14 +3,17 @@
     "target": "es6",
     "module": "commonjs",
     "declaration": true,
+    "emitDeclarationOnly": true,
     "outDir": "dist",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "isolatedModules": true
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "exclude": [
     "src/**/*.test.ts",
     "src/**/*.spec.ts"
   ]
-
 }
