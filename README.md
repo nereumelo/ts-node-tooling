@@ -3,7 +3,10 @@
 #### Create config files
 
  ```bash
- mkdir -p src .vscode && touch -a .vscode/settings.json .eslintrc.js .gitignore prettier.config.js tsconfig.json vite.config.js
+    mkdir -p src .vscode &&  \
+    touch -a .vscode/settings.json \
+    .eslintrc.js .gitignore prettier.config.js \
+    tsconfig.json vite.config.js
  ```
 
 #### References:
