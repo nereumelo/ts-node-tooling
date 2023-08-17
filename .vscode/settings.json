@@ -1,8 +1,9 @@
 {
   "eslint.format.enable": true,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  },
+  }
   "files.exclude": {
     "**/__snapshots__": true
   }
